@@ -154,6 +154,16 @@ html.motion-off .art-frame>svg,html.motion-off .art-frame .float-art,html.motion
   .ss-placeholder-row{gap:8px;align-items:stretch}
   .ss-placeholder{flex:0 1 auto}
 }
+</style><style id="ss-ui-motion-v42-override">
+/* Pause/reduced-motion override for full-SVG hero categories. */
+html.motion-off body .art-frame>svg,
+html.motion-off body .art-frame>svg *,
+html.motion-off body .ss-hero-media .art-frame>svg{animation:none!important;animation-name:none!important;animation-duration:0s!important;transition:none!important}
+@media(prefers-reduced-motion:reduce){
+  html body[class] .art-frame>svg,
+  html body[class] .art-frame>svg *,
+  html body[class] .ss-hero-media .art-frame>svg{animation:none!important;animation-name:none!important;animation-duration:0s!important;transition:none!important}
+}
 </style></head>
 <body class="clinic variant-0"><a class="skip" href="#main">Skip to content</a><div class="progress" aria-hidden="true"></div><div class="preview-note">Independent design preview · Not the official business website</div>
 <header class="site-header" id="top"><nav class="nav wrap" aria-label="Main navigation"><a class="brand" href="#top"><span class="brandmark" aria-hidden="true">V</span><span>Versha Clinic</span></a><div class="nav-links"><a href="#about">A place to begin</a><a href="#visit">Plan a visit</a></div><a class="nav-call" href="tel:+919312088055">Call directly <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></nav></header>
